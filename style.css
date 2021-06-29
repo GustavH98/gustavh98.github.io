@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#redcross {
+    width: 5px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#redcross::after {
+    content: "";
+    width: 5px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)rotate(90deg);
+}
+
